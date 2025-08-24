@@ -381,6 +381,9 @@
   .w-100 {
     width: calc(var(--spacing) * 100);
   }
+  .w-\[00px\] {
+    width: 00px;
+  }
   .w-\[400px\] {
     width: 400px;
   }
@@ -794,6 +797,11 @@
   .md\:w-\[500px\] {
     @media (width >= 48rem) {
       width: 500px;
+    }
+  }
+  .md\:w-\[600px\] {
+    @media (width >= 48rem) {
+      width: 600px;
     }
   }
   .md\:w-\[900px\] {
